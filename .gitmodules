@@ -1,0 +1,3 @@
+[submodule "wallet-lib"]
+	path = wallet-lib
+	url = git@github.com:clovrlabs/wallet-lib.git

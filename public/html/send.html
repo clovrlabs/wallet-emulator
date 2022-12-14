@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emulator Wallet</title>
+    <link rel="stylesheet" href="public/css/styles.css">
+</head>
+<body>
+    <div id="main">
+        <div class="header-container">
+            <h1 id="title"></h1>
+        </div>
+        <div id="container">
+            <input id="address-field" type="text" placeholder="Input the invoice address or id to send" oninput="addAmountField()">
+            <input id="amount-field" type="text" placeholder="Input the amount to send">
+            <button id="send-button" onclick="sendPayment()">Send</button>
+        </div>
+        <button onclick="history.back()">Cancel</button>
+    </div>
+</body>
+<script src="public/js/send.js"></script> 
+</html>

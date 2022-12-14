@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emulator Wallet</title>
+    <link rel="stylesheet" href="public/css/styles.css">
+</head>
+<body>
+    <div id="main">
+        <div class="header-container">
+            <h1 id="title">Developers</h1>
+        </div>
+        <div id="container">
+            <input id="command-field" type="text" placeholder="Input the command to send">
+            <button onclick="sendCommand()">Send</button>
+            <pre id="json"></pre>
+        </div>
+        <button onclick="history.back()">Cancel</button>
+    </div>
+</body>
+<script src="public/js/developers.js"></script> 
+</html>
