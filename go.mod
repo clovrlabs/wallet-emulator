@@ -3,8 +3,8 @@ module github.com/clovrlabs/wallet-emulator
 go 1.19
 
 require (
+	github.com/breez/boltz v0.0.0-20220719050749-9af40a046ccc
 	github.com/breez/breez v0.0.0-local
-	github.com/breez/breez/boltz v0.0.0-local
 	github.com/gin-gonic/gin v1.8.1
 	github.com/skip2/go-qrcode v0.0.0-20200617195104-da1b6568686e
 )
@@ -20,7 +20,6 @@ require (
 	github.com/aead/siphash v1.0.1 // indirect
 	github.com/andybalholm/brotli v1.0.3 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
-	github.com/breez/boltz v0.0.0-20220719050749-9af40a046ccc // indirect
 	github.com/breez/lspd v0.0.0-20220717150558-89212aa5ae59 // indirect
 	github.com/btcsuite/btcd v0.23.3 // indirect
 	github.com/btcsuite/btcd/btcec/v2 v2.2.1 // indirect
@@ -189,8 +188,8 @@ require (
 
 replace (
 	git.schwanenlied.me/yawning/bsaes.git => github.com/Yawning/bsaes v0.0.0-20180720073208-c0276d75487e
-	github.com/breez/breez v0.0.0-local => ./wallet-lib
-	github.com/breez/breez/boltz v0.0.0-local => ./wallet-lib/boltz
+	github.com/breez/boltz => ./wallet-lib/boltz
+	github.com/breez/breez => ./wallet-lib
 	github.com/btcsuite/btcwallet => github.com/breez/btcwallet v0.15.2-0.20220717090508-739787f948a6
 	github.com/btcsuite/btcwallet/walletdb => github.com/breez/btcwallet/walletdb v1.4.1-0.20220717090508-739787f948a6
 	github.com/btcsuite/btcwallet/wtxmgr => github.com/breez/btcwallet/wtxmgr v1.5.1-0.20220717090508-739787f948a6

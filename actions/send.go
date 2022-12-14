@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"math"
 
+	"github.com/breez/boltz"
 	"github.com/breez/breez/bindings"
-	"github.com/breez/breez/boltz"
 )
 
 func SendViaBtc(paymentRequest string, amountSatoshi int64) error {
